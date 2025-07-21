@@ -27,7 +27,7 @@ English | [简体中文](/docs/zh-CN/README_zh-CN.md) | [日本語](/docs/ja/REA
 
 > We have presented a [**comprehensive survey**](https://arxiv.org/pdf/2411.15296) on the evaluation of large multi-modality models, jointly with [**MME Team**](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) and [**LMMs-Lab**](https://lmms-lab.github.io) 🔥🔥🔥
 - **[2025-07-07]** Supported [**SeePhys**](https://seephys.github.io/), which is a ​full spectrum multimodal benchmark for evaluating physics reasoning across different knowledge levels. thanks to [**Quinn777**](https://github.com/Quinn777) 🔥🔥🔥
-- **[2025-08-01]** Added support for evaluating models processed by [**PyramidDrop**](https://github.com/Cooperx521/PyramidDrop).
+- **[2025-08-01]** Added support for evaluating models processed by [**PyramidDrop**](https://github.com/Cooperx521/PyramidDrop) (LLaVA 7B/13B).
 - **[2025-07-02]** Supported [**OvisU1**](https://huggingface.co/AIDC-AI/Ovis-U1-3B), thanks to [**liyang-7**](https://github.com/liyang-7) 🔥🔥🔥
 - **[2025-06-16]** Supported [**PhyX**](https://phyx-bench.github.io/), a benchmark aiming to assess capacity for physics-grounded reasoning in visual scenarios. 🔥🔥🔥
 - **[2025-05-24]** To facilitate faster evaluations for large-scale or thinking models, **VLMEvalKit supports multi-node distributed inference** using **LMDeploy**  (supports *InternVL Series, QwenVL Series, LLaMa4*) or **VLLM**(supports *QwenVL Series, LLaMa4*). You can activate this feature by adding the ```use_lmdeploy``` or ```use_vllm``` flag to your custom model configuration in [config.py](vlmeval/config.py) . Leverage these tools to significantly speed up your evaluation workflows 🔥🔥🔥

@@ -665,6 +665,12 @@ llava_series = {
         layer_list="[8,16,24]",
         image_token_ratio_list="[0.5,0.25,0.125]",
     ),
+    "llava_pdrop_v1.5_7b": partial(
+        LLaVA_PDrop,
+        model_path="liuhaotian/llava-v1.5-7b",
+        layer_list="[8,16,24]",
+        image_token_ratio_list="[0.5,0.25,0.125]",
+    ),
     "llava_next_vicuna_7b": partial(
         LLaVA_Next, model_path="llava-hf/llava-v1.6-vicuna-7b-hf"
     ),
