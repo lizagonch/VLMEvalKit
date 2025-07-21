@@ -659,6 +659,12 @@ llava_series = {
     "llava_v1_7b": partial(LLaVA, model_path=LLAVA_V1_7B_MODEL_PTH),
     "sharegpt4v_7b": partial(LLaVA, model_path="Lin-Chen/ShareGPT4V-7B"),
     "sharegpt4v_13b": partial(LLaVA, model_path="Lin-Chen/ShareGPT4V-13B"),
+    "llava_pdrop_v1.5_13b": partial(
+        LLaVA_PDrop,
+        model_path="liuhaotian/llava-v1.5-13b",
+        layer_list="[8,16,24]",
+        image_token_ratio_list="[0.5,0.25,0.125]",
+    ),
     "llava_next_vicuna_7b": partial(
         LLaVA_Next, model_path="llava-hf/llava-v1.6-vicuna-7b-hf"
     ),
